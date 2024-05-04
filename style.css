@@ -1,0 +1,114 @@
+@font-face{
+	font-family: magic;
+	src: url("vivl-rail.otf");
+}
+.box{
+	height: 2350px;
+	width: 1500px;
+	background: url(https://cdn.kanobu.ru/editor/images/96/feb5aa58-bf4f-49fe-9c76-4debb744a88e.webp);
+	background-size: 100% 100%;
+}
+.nazvanie{
+	height: 270px;
+	width: 100%;
+	background: url(satoru1.jpg);
+	background-size: 100% 100%;
+	padding-top: 50px;
+	font-family: magic;
+}
+.luvchar{
+	height: 40px;
+	width: 600px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rectangle{
+	width: 1300px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kvadrat{
+	height: 305px;
+	width: 295px;
+	background: gray;
+	margin-left: 28px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.imena{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 290px;
+	background: white;
+	margin-left: 28px;
+	margin-top: 15px;
+	border-radius: 15px;
+	transition: background 1s linear, color 1s linear;
+	width: 1s;
+}
+.imena:hover{
+	background: #44a2c9;
+}
+.imena:hover .textchar{
+	display: block;
+}
+.d-flex{
+	display: flex;
+}
+.boi{
+	height: 40px;
+	width: 600px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.przmougolnik{
+	height: 800px;
+	width: 1400px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kartinki{
+	height: 300px;
+	width: 670px;
+	background: yellow;
+	margin-left: 20px;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+.czenu{
+	height: 50px;
+	width: 670px;
+	background: gray;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+.text{
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+.textchar{
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	display: none;
+}
+.img-src{
+	height: 300px;
+	width: 290px;
+	border-radius: 10px;
+}
+.img-nazvanie{
+	height: 200px;
+	width: 100%;
+}
+.img-kartinki{
+	height: 300px;
+	width: 670px;
+	border-radius: 10px;
+}
